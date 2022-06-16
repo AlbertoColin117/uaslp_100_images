@@ -69,7 +69,7 @@ body{
   scrollbar-width: none;  /* Firefox */
 }
 
-.container__general:-webkit-scrollbar {
+.container__general::-webkit-scrollbar {
   display: none;
 }
 
