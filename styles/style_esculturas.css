@@ -186,6 +186,15 @@ body{
 	-moz-transform:scale(1.2);
 }
 
+.foto::selection {
+    color: none;
+    background: none;
+}
+.foto::-moz-selection {
+    color: none;
+    background: none;
+}
+
 .imagen1:hover{
 	transition: transform 0.2s;
 	-webkit-transition: transform 0.2s;
