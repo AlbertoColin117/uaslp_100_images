@@ -62,7 +62,7 @@ body{
 
 .container__general{
   width:980px;
-  height:2000px;
+  height:1400px;
   margin-left: auto;
   margin-right: auto;
 	overflow: hidden;
@@ -74,46 +74,23 @@ body{
   display: none;
 } */
 
-
 /*----------CABECERA----------*/
 .cabecera{
   display:flex;
   flex-direction: column;
   align-items: center;
-  height:730px;
+  height:220px;
 }
 /*----------TITULO*/
 .cabecera__titulo{
   text-align: center;
   margin-top: 40px;
+	margin-bottom: 40px;
 }
 .cabecera__titulo h1{
   font-size: 40px;
   font-weight: 700;
-}
-.cabecera__titulo h2{
-  font-size: 28px;
-  font-weight: 200;
-  color: #a6a6a6;
-	line-height: 40px;
-}
-/*----------RELOJ-3D*/
-.cabecera__reloj3d{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  transform-style: preserve-3d;
-  transform: perspective(10000px);
-}
-.reloj3d__frente{
-  position:absolute;
-  transform-origin: center center center;
-  transform: translateX(273px) translateY(-328px) translateZ(15px) scale(0.35);
-  transition:0.3s;
-}
-.reloj3d__frente:hover{
-  position:absolute;
-  transform-origin: center center center;
-  transform: translateX(273px) translateY(-328px) translateZ(15px) scale(0.8);
+	line-height: 42px;
 }
 /*----------TEXTO*/
 .cabecera__texto{
@@ -121,12 +98,11 @@ body{
 }
 .cabecera__texto p{
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
-	line-height: 30px;
+	line-height: 20px;
 	letter-spacing: 1px;
 }
-
 
 /*----------CONTENIDO----------*/
 .contenido{
@@ -221,6 +197,15 @@ body{
 	transform:scale(1.2);
 	-webkit-transform:scale(1.2);
 	-moz-transform:scale(1.2);
+}
+
+.foto::selection {
+    color: none;
+    background: none;
+}
+.foto::-moz-selection {
+    color: none;
+    background: none;
 }
 
 .imagen1:hover{
@@ -416,6 +401,13 @@ body{
 	  min-width: 450px;
 	  margin-top: -450px;
 		overflow: hidden;
+	}
+
+	.cabecera__titulo h1{
+		margin-top: 30px;
+	  font-size: 36px;
+	  font-weight: 700;
+		line-height: 38px;
 	}
 
 	.contenido{
