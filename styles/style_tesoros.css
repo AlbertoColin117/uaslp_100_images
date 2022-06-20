@@ -323,6 +323,10 @@ body{
 		overflow: hidden;
 	}
 
+	.cabecera{
+		margin-bottom: 20px;
+	}
+
 	.contenido{
 	  height:auto !important;
 		justify-content:flex-start;
@@ -401,6 +405,10 @@ body{
 	  min-width: 450px;
 	  margin-top: -450px;
 		overflow: hidden;
+	}
+
+	.cabecera{
+		margin-bottom: 20px;
 	}
 
 	.cabecera__titulo h1{
