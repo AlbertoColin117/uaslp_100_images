@@ -324,7 +324,7 @@ body{
 	}
 
 	.cabecera{
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 
 	.contenido{
@@ -340,7 +340,7 @@ body{
 	}
 
 	.info_space{
-		height:50px;
+		height:100px;
 	}
 
 	.info{
@@ -408,7 +408,7 @@ body{
 	}
 
 	.cabecera{
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 
 	.cabecera__titulo h1{
@@ -431,7 +431,7 @@ body{
 	}
 
 	.info_space{
-		height:50px;
+		height:100px;
 	}
 
 	.info{
