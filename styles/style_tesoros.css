@@ -140,11 +140,15 @@ body{
 	transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
+
+	-webkit-tap-highlight-color: transparent;/*no blue square on tap*/
 }
 .info_imagen.descubierto{
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
+
+	-webkit-tap-highlight-color: transparent;/*no blue square on tap*/
 }
 .imagen1{
 	backface-visibility: hidden;
